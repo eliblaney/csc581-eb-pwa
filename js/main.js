@@ -1,12 +1,12 @@
 function registerServiceWorker() {
-	console.log('Regstering service worker...');
+	console.log('[SW] Regstering...');
 	if('serviceworker' in navigator) {
 		navigator.serviceWorker.register('./sw.js').then(registration => {
-			console.log('Registered!');
+			console.log('[SW] Registered!');
 
 		} , err => {
 			// registration failed :(
-			console.log('ServiceWorker registration failed: ', err);
+			console.log('[SW] Registration failed: ', err);
 		}).catch(err => {
 			console.log(err);
 		});
