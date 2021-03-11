@@ -15,10 +15,4 @@
 	],
 	"start_url": "/csc581-eb-pwa00",
 	"display": "standalone",
-	"prefer_related_applications": [
-		{
-			"platform": "web",
-			"id": "com.eliblaney.pwa"
-		}
-	]
 }
