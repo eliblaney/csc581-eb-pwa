@@ -5,12 +5,12 @@
 		{
 			"src": "images/icon192.jpg",
 			"sizes": "192x192",
-			"type": "image/jpg"
+			"type": "image/jpeg"
 		},
 		{
 			"src": "images/icon512.jpg",
 			"sizes": "512x512",
-			"type": "image/jpg"
+			"type": "image/jpeg"
 		}
 	],
 	"start_url": "/csc581-eb-pwa00",
