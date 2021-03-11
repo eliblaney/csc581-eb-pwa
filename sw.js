@@ -10,6 +10,8 @@ const PRECACHE_URLS = [
 	'sw.js',
 ];
 
+console.log("Service worker starting...");
+
 self.addEventListener('install', event => {
 	event.waitUntil(
 		caches.open(PRECACHE).then(cache => {
