@@ -1,0 +1,22 @@
+body {
+	font-family: sans-serif;
+	background: #222;
+	color: #ddd;
+}
+
+html, .fullscreen {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: auto;
+	text-align: center;
+}
+
+.title {
+	font-weight: bold;
+}
