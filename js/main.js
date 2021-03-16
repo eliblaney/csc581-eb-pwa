@@ -1,6 +1,6 @@
 function registerServiceWorker() {
 	console.log('[SW] Regstering...');
-	if('serviceworker' in navigator) {
+	if('serviceWorker' in navigator) {
 		navigator.serviceWorker.register('./sw.js').then(registration => {
 			console.log('[SW] Registered!');
 
