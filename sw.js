@@ -15,9 +15,9 @@ console.log("[SW] Initializing");
 self.addEventListener('install', event => {
 	console.log('[SW] Install');
 	event.waitUntil(
-		caches.open(PRECACHE).then(cache => {
+		caches.open(PRECACHE).then(cache =>
 			return cache.addAll(PRECACHE_URLS);
-		})
+		)
 	);
 });
 
@@ -28,8 +28,8 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
 	console.log('[SW] Fetch');
 	event.respondWith(
-		caches.match(event.request).then(response => {
-			return response || fetch(event.request);
-		});
+		caches.match(event.request).then(response =>
+			response || fetch(event.request);
+		);
 	);
 });
