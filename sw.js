@@ -16,7 +16,7 @@ self.addEventListener('install', event => {
 	console.log('[SW] Install');
 	event.waitUntil(
 		caches.open(PRECACHE).then(cache =>
-			return cache.addAll(PRECACHE_URLS);
+			cache.addAll(PRECACHE_URLS)
 		)
 	);
 });
@@ -29,7 +29,7 @@ self.addEventListener('fetch', event => {
 	console.log('[SW] Fetch');
 	event.respondWith(
 		caches.match(event.request).then(response =>
-			response || fetch(event.request);
-		);
+			response || fetch(event.request)
+		)
 	);
 });
