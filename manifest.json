@@ -15,6 +15,6 @@
 			"type": "image/png"
 		}
 	],
-	"start_url": "/csc581-eb-pwa00",
+	"start_url": "/csc581-eb-pwa00/",
 	"display": "standalone"
 }
