@@ -7,6 +7,10 @@ const PRECACHE_URLS = [
 	'./',
 	'css/style.css',
 	'js/main.js',
+	'images/favicon.ico',
+	'images/icon192.png',
+	'images/icon512.png',
+	'images/logo.png',
 	'sw.js',
 ];
 
