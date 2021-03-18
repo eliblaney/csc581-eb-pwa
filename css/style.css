@@ -12,6 +12,11 @@ body {
 	color: #fff;
 }
 
+a, a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
 /*
 html, .fullscreen {
 	display: flex;
