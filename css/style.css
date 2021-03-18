@@ -4,6 +4,14 @@ body {
 	color: #ddd;
 }
 
+.swal-modal {
+	background-color: #333;
+}
+
+.swal-text, .swal-title {
+	color: #fff;
+}
+
 /*
 html, .fullscreen {
 	display: flex;
