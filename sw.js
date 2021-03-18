@@ -6,12 +6,17 @@ const PRECACHE_URLS = [
 	'index.html',
 	'./',
 	'css/style.css',
+	'css/birdstyle.css',
 	'js/main.js',
 	'images/favicon.ico',
 	'images/icon192.png',
 	'images/icon512.png',
 	'images/logo.png',
+	'images/CaliGull.png',
 	'images/Cardinal.png',
+	'images/Chicken.png',
+	'images/Meadowlark.png',
+	'images/Mockingbird.png',
 	'sw.js',
 ];
 
