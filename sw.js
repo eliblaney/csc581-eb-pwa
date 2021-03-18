@@ -8,6 +8,7 @@ const PRECACHE_URLS = [
 	'css/style.css',
 	'css/birdstyle.css',
 	'js/main.js',
+	'js/sweetalert.min.js',
 	'images/favicon.ico',
 	'images/icon192.png',
 	'images/icon512.png',
