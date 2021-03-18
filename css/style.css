@@ -4,6 +4,7 @@ body {
 	color: #ddd;
 }
 
+/*
 html, .fullscreen {
 	display: flex;
 	height: 100%;
@@ -12,7 +13,6 @@ html, .fullscreen {
 	padding: 0;
 }
 
-/*
 .container {
 	margin: auto;
 	text-align: center;
