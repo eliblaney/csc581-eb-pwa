@@ -10,6 +10,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<link rel="manifest" href="manifest.json">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/birdstyle.css">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
 		<meta name="theme-color" content="#222">
@@ -21,8 +22,18 @@
 		<meta name="msapplication-TileImage" content="images/logo.png">
 	</head>
 	<body class="fullscreen" onload="registerServiceWorker();">
+		<nav>
+			<h1>State Birds</h1>
+			<ul class="li">Home</ul>
+			<ul class="li">About</ul>
+			<ul class="li">Blog</ul>
+		</nav>
 		<div class="container">
-			<h1 class="title">Hello World!</h1>
+			<div class="card">
+				<img class="card--avatar" src="images/Cardinal.png" alt="Picture of a cardinal">
+				<h1 class="card--title">Cardinal</h1>
+				<a class="card--link" href="#">States</a>
+			</div>
 		</div>
 		<script src="js/main.js"></script>
 	</body>
