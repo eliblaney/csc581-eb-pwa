@@ -54,7 +54,7 @@ h1 {
 	flex-direction: column;
 	width: 15rem auto;
 	height: 15rem;
-	background: radial-gradient(rgb(113, 71, 71), rgb(95, 54, 54), rgb(54, 27, 27));
+	background: radial-gradient(#a77, #744, #422);
 	box-shadow: 0 10px 20px rgba(68, 68, 68, 0.19), 0 6px 6px rgba(68, 68, 68, 0.23);
 	border-radius: 10px;
 	margin: auto;
@@ -78,8 +78,9 @@ h1 {
 
 .card--link {
 	text-decoration: none;
-	background: #db4938;
+	background: #9b1908;
 	color: #FFF;
 	padding: 0.3rem 1rem;
+	border: 1px solid #ccc;
 	border-radius: 20px;
 }
